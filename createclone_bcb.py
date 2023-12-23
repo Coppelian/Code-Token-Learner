@@ -8,6 +8,7 @@ from javalang.ast import Node
 import torch
 from anytree import AnyNode, RenderTree
 from anytree import find
+from solidity_parser.main import from_standard_output
 
 def get_token(node):
     token = ''
